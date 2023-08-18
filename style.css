@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    text-align: center; 
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 35px;
+    text-align: center; 
+    color: #ffffff;
+}
+
+h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    text-align: center; 
+    color: #ffffff;
+}
+
+h4 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    text-align: center; 
+    color: #ffffff;
+}
+
+h5 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 35px;
+    text-align: center; 
+    color: #ffffff;
+}
