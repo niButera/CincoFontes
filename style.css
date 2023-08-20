@@ -1,33 +1,27 @@
 body {
-    background: linear-gradient(to bottom, rgba(235,110,0,1) 0%, 
-    rgba(255,150,31,1) 43%, rgba(255,150,31,1) 79%);
+    background: linear-gradient(to bottom, rgba(235, 110, 0, 1) 0%,
+            rgba(255, 150, 31, 1) 43%, rgba(255, 150, 31, 1) 79%);
 }
 
 h1 {
     font-family: 'Leckerli One', cursive;
-    text-align: center; 
-    font-size: 35px; 
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
     color: #ffffff;
 }
 
-p {
+h2 {
     font-family: 'Exo 2', sans-serif;
-    text-align: center; 
-    font-size: 1.5em; 
+    text-align: center;
+    font-size: 1.4em;
     color: #ffffff;
 }
 
-span {
-    font-family: 'Righteous', cursive;
-    text-align: center; 
-    font-size: 1.5em; 
-    color: #000000;
-}
-
-h5 {
-    font-family: 'Bodoni Moda', serif;
-    text-align: center; 
-    font-size: 1.5em; 
+h3 {
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+    font-size: 1.2em;
     color: #ffffff;
 }
 
@@ -36,3 +30,10 @@ cA {
     color: #000000;
 }
 
+p {
+    font-family: 'Caprasimo', cursive;
+    text-shadow: 1px 4px 3px rgb(177, 115, 0);
+    text-align: center;
+    font-size: 2em;
+    color: #000000;
+}

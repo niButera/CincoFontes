@@ -9,74 +9,103 @@
 
     <link href="style.css" rel="stylesheet">
 
-    <!-- Fonte Orbitron -->
+    <!-- Fonte Leckerli One (h1) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
 
-    <!-- Fonte Advent Pro -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&display=swap" rel="stylesheet">
-
-    <!-- Fonte Righteous -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-
-    <!-- Fonte Exo 2 -->
+    <!-- Fonte Exo 2 (h2) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet">
 
-    <!-- Fonte Bodoni Moda -->
+    <!-- Fonte Comfortaa (h3) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Fonte Caprasimo (p)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+
+    <!-- Fonte Righteous (cA)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    
+    <!-- Eu coloquei h1,h2 porque com o p1,p2 não estava aplicando os estilos de fonte e não fica centralizado -->
 
     <style>
         div {
             text-align: center;
         }
-    </style>  
+    </style>
 </head>
 
 <body>
     <h1> Fazbear Entertainment </h1>
     <hr>
-    <p> Bem vindo! Temos diversos tipos de serviços a sua escolha </p>
+    <h2> Bem vindo! Temos diversos tipos de serviços a sua escolha. </h2>
+    <br>
 
+    <div class="box">
+        <img src="imagens/festa.png" />
+    </div>
+    <p> Espaço para Festas </p>
+    <h3> Explore a magia do nosso serviço premium de aluguel de locais de festa exclusivos.
+        Oferecemos uma seleção diversificada de locais cuidadosamente escolhidos. Personalize a decoração para
+        refletir sua visão única, aproveitando nossa infraestrutura de alta qualidade e equipe profissional.
+        Localizados estrategicamente, garantimos uma experiência memorável para ocasiões especiais.
+        Deixe-nos fazer parte da sua jornada de celebração, criando momentos inesquecíveis juntos.</h3>
+    <br>
 
     <div class="box">
-        <img src="imagens/festa.png"/>
-        <span>Espaço para Festa</span>
-    </div> 
-    <div class="box">
-        <img src="imagens/adm.png"/>
-        <span>Serviços Financeiros</span>
+        <img src="imagens/food.png" />
     </div>
-    <div class="box">
-        <img src="imagens/food.png"/>
-        <span>Serviços de Delivery</span>
-    </div>
-    <div class="box">
-        <img src="imagens/reparos.png"/>
-        <span>Reparos e Manutenções</span>
-    </div>
+    <p> Alimentos e Utensilhos </p>
+    <h3> Apresentamos nosso prático serviço de aluguel de utensílios de comida descartáveis e alimentos saborosos.
+        Oferecemos uma variedade de utensílios de qualidade para tornar seu evento sem complicações, junto com opções
+        de cardápio diversificado. Personalize seus pacotes, aproveite a entrega e coleta confiáveis, e promovemos
+        práticas sustentáveis. Deixe-nos cuidar dos detalhes enquanto você desfruta de uma experiência sem estresse.
+    </h3>
 
+    <div class="box">
+        <img src="imagens/reparos.png" />
+    </div>
+    <p> Reparos e Manutenções </p>
+    <h3> Oferecemos um serviço especializado em reparos e manutenção de robôs de festa.
+        Nossa equipe experiente oferece diagnóstico preciso, reparos ágeis e manutenção preventiva,
+        garantindo que o robô esteja sempre pronto para animar suas festas. Utilizamos peças de reposição
+        de qualidade e fornecemos atendimento personalizado para atender às necessidades individuais.
+        Escolha nosso serviço para manter a diversão contínua em suas celebrações!</h3>
+
+    <div class="box">
+        <img src="imagens/adm.png" />
+    </div>
+    <p> Serviços Adminstrativos </p>
+    <h3> Apresentamos nossos serviços integrados de Administração Financeira e Administração de Espaços Alugáveis.
+        Gerenciamos suas finanças de forma estratégica, monitorando receitas e despesas, além de oferecer relatórios
+        detalhados e planejamento orçamentário. Em relação aos espaços alugáveis, cuidamos da gestão de reservas,
+        manutenção, atendimento ao cliente e melhorias contínuas. Com essa abordagem completa, permitimos que você
+        se concentre no crescimento do seu negócio enquanto cuidamos dos detalhes essenciais.</h3>
+    <br>
+
+    <h2> Entre em contato conosco: 1-888-FAZ-FAZBEAR </h2>
+    <br>
 
     <style>
         div.box {
-            width: 20%;
-            display:-webkit-inline-box;
+            width: 100%;
+            display: list-item;
         }
-        </style>
+    </style>
 
     <Div>
         <img src="imagens/VANTAGENS BANNER.png" alt="banner informativo, nosssas vantagens: garantia de reparos por mais 
         de um ano, frete rapido para todo o mundo (literalmente), preço mais justo do mercado" width="95.5%" />
     </Div>
-    
+
     <hr>
     <cA>Nicolas Santos - Mongaguá - 2023 - <a href="https://eteab.com.br/cms/"> Etec Adolpho Berezin </a></cA>
 
